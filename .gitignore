@@ -1,0 +1,3 @@
+# Project exclude paths
+/prototype-pattern/target/
+/Singleton-pattern/target/
