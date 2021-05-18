@@ -12,6 +12,9 @@
         <module>Singleton-pattern</module>
         <module>prototype-pattern</module>
         <module>builder-pattern</module>
+        <module>Proxy-pattern</module>
+        <module>facade-pattern</module>
+        <module>decorator-pattern</module>
     </modules>
 
 
