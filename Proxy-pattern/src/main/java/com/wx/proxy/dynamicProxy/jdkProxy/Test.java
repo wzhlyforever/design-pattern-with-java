@@ -17,9 +17,9 @@ public class Test {
             Iperson obj = ((Iperson)new JdkMeipo().getInstance(new Zhangsan()));
             obj.findLove();
 
-            //通过反编译工具可以查看源代码
+            //通过反编译工具可以查看源代码  生成字节码
             byte [] bytes = ProxyGenerator.generateProxyClass("$Proxy0",new Class[]{Iperson.class});
-            FileOutputStream os = new FileOutputStream("E://$Proxy0.class");
+            FileOutputStream os = new FileOutputStream("E://cglib_proxy_class");
             os.write(bytes);
             os.close();
         } catch (Exception e) {

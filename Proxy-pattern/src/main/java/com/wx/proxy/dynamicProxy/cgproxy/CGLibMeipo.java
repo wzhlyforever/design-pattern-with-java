@@ -9,6 +9,8 @@ import java.lang.reflect.Method;
 /**
  * @program: design-pattern-with-java
  * @description:
+ *采用了fastClass 机制，为代理类和被代理类生成了fast类，，这个类会为代理类和被代理类都分配一个index，通过这个index直接去调用方法，省去了反射调用
+ *
  * @author: Mr.Wang
  * @create: 2021-05-17 18:51
  **/
